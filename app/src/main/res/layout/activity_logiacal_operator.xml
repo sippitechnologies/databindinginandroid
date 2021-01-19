@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-
-<data>
-    <variable
-        name="number1"
-        type="Integer" />
-    <variable
-        name="number2"
-        type="Integer" />
-</data>
+    <data>
+        <variable
+            name="number1"
+            type="Integer" />
+        <variable
+            name="number2"
+            type="Integer" />
+    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".DemoArthimaticsOperator">
+        tools:context=".LogiacalOperatorActivity">
 
         <TextView
-            android:id="@+id/txt_result"
+            android:id="@+id/txt_result_logical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{String.valueOf(number1+number2)}"
+            android:text="@{number1&gt;10 &amp;&amp; number2&gt;10? String.valueOf(number1) : String.valueOf(number2)}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
