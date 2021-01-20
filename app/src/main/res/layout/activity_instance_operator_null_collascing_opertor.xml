@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="com.sippitehnologies.databinding.model.Vehicle"/>
+        <import type="com.sippitehnologies.databinding.model.Person"/>
+        <variable
+            name="myObject"
+            type="Object" />
+        <variable
+            name="person"
+            type="Person" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InstanceOperatorNullCollascingOpertor">
+
+        <!--android:text='@{myObject instanceof Person ? "This is a Person" : "This is Vehicle"}' Instance Operator Testing-->
+        <TextView
+            android:id="@+id/txt_instancersult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text='@{person.firstName ?? person.displayName}'
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout></layout>

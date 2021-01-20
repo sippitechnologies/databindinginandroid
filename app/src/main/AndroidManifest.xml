@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DataBinding">
-        <activity android:name=".DemoArthimaticsOperator"></activity>
+        <activity android:name=".ComparsionOperator"></activity>
+        <activity android:name=".LogiacalOperatorActivity" />
+        <activity android:name=".DemoArthimaticsOperator" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LogiacalOperatorActivity">
+        <activity android:name=".InstanceOperatorNullCollascingOpertor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
