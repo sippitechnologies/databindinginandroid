@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DataBinding">
         <activity android:name=".ComparsionOperator"></activity>
+        <activity android:name=".InstanceOperatorNullCollascingOpertor" />
         <activity android:name=".LogiacalOperatorActivity" />
         <activity android:name=".DemoArthimaticsOperator" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".InstanceOperatorNullCollascingOpertor">
+        <activity android:name=".DatabindingWithResouce">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
