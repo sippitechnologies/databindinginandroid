@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">DataBinding</string>
     <string name="myname">Tom Harry</string>
+    <string name="hidelabel">Hide Label</string>
     <dimen name="text_size">40sp</dimen>
+    <string name="visible_label">I am visible</string>
+    <string name="show_label">Show Label</string>
 
 </resources>
