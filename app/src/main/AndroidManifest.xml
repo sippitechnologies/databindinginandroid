@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DataBinding">
-        <activity android:name=".DatabindingWithResouce"></activity>
+        <activity android:name=".ControlVisiabilityOfView"></activity>
+        <activity android:name=".DatabindingWithResouce" />
         <activity android:name=".ComparsionOperator" />
         <activity android:name=".InstanceOperatorNullCollascingOpertor" />
         <activity android:name=".LogiacalOperatorActivity" />
         <activity android:name=".DemoArthimaticsOperator" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ControlVisiabilityOfView">
+        <activity android:name=".EventButtonClickDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
